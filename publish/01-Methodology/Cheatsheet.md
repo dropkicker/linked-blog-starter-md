@@ -9,7 +9,7 @@ sudo nmap -sC -sV -vv -oA nmap/analytics 10.129.60.215
 #####Recon
 Initial Rust Scan:
 ```
-sudo rustscan -a --ulimit 5000
+sudo rustscan -a <IP> --ulimit 5000
 ```
 
 #####Recon
